@@ -64,6 +64,7 @@ namespace Lands.ViewModels
             {
                 await Application.Current.MainPage.DisplayAlert("Error", response.Message, "Accept");
                 return;
+
             }
 
             var list = (List<Land>)response.Result;
