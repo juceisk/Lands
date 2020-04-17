@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands.Android", "Lands\Land
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands.iOS", "Lands\Lands.iOS\Lands.iOS.csproj", "{F5108647-DFC0-4FD2-AEBE-9AF1DF0AEB56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands", "Lands\Lands\Lands.csproj", "{BB022ADC-6D8E-4C16-B6FD-C9246137E9A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lands", "Lands\Lands\Lands.csproj", "{BB022ADC-6D8E-4C16-B6FD-C9246137E9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands.Domain", "Lands\Lands.Domain\Lands.Domain.csproj", "{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,18 @@ Global
 		{BB022ADC-6D8E-4C16-B6FD-C9246137E9A0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{BB022ADC-6D8E-4C16-B6FD-C9246137E9A0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{BB022ADC-6D8E-4C16-B6FD-C9246137E9A0}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Release|iPhone.Build.0 = Release|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F2E28BFF-EF52-43D8-AB08-230D18B9D85A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:infra="clr-namespace:Lands.Infrastructure"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             x:Class="Lands.App">
+<Application 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:infra="clr-namespace:Lands.Infrastructure"
+    x:Class="Lands.App">
     <Application.Resources>
+
+        <!-- Application resource dictionary -->
         <ResourceDictionary>
-            <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
+            <infra:InstanceLocator x:Key="Locator"/>
         </ResourceDictionary>
+
     </Application.Resources>
 </Application>

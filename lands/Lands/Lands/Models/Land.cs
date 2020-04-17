@@ -1,7 +1,8 @@
 ﻿namespace Lands.Models
 {
-    using Newtonsoft.Json;
     using System.Collections.Generic;
+    using Newtonsoft.Json;
+
     public class Land
     {
         [JsonProperty(PropertyName = "name")]

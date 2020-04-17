@@ -1,6 +1,7 @@
-﻿namespace Lands.Models
+﻿using Newtonsoft.Json;
+
+namespace Lands.Models
 {
-    using Newtonsoft.Json;
     public class Translations
     {
         [JsonProperty(PropertyName = "de")]
@@ -25,12 +26,12 @@
         public string Portuges { get; set; }
 
         [JsonProperty(PropertyName = "nl")]
-        public string Dush { get; set; }
+        public string Dutch { get; set; }
 
         [JsonProperty(PropertyName = "hr")]
         public string Croatian { get; set; }
 
         [JsonProperty(PropertyName = "fa")]
-        public string Danish { get; set; }
+        public string Persian { get; set; }
     }
 }

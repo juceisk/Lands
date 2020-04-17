@@ -89,12 +89,6 @@
     <AndroidResource Include="Resources\drawable\facebook_logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lands\Lands.csproj">
-      <Project>{D9C9BA64-F2F0-4E19-8EF1-28CA91EE257C}</Project>
-      <Name>Lands</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\onu.png" />
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +114,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_chevron_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lands\Lands.csproj">
+      <Project>{bb022adc-6d8e-4c16-b6fd-c9246137e9a0}</Project>
+      <Name>Lands</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

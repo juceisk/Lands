@@ -1,13 +1,13 @@
-﻿//Clase para refrescar los componentes de un form
-namespace Lands.ViewModels
+﻿namespace Lands.ViewModels
 {
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Runtime.CompilerServices;
 
-    public class BaseViewModel: INotifyPropertyChanged
+    public class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
@@ -23,6 +23,5 @@ namespace Lands.ViewModels
             backingField = value;
             OnPropertyChanged(propertyName);
         }
-
     }
 }
